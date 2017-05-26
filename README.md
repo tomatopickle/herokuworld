@@ -18,6 +18,11 @@ git clone https://github.com/zoutepopcorn/herokuworld.git
 cd herokuworld
 ```
 
+### change
+```
+git commit -m "Your Message"
+```
+
 ### push
 ```
 git push heroku master
