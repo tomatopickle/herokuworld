@@ -12,6 +12,11 @@ heroku login
 heroku create your_unique_name
 ```
 
+### example
+```
+git clone https://github.com/zoutepopcorn/herokuworld.git
+cd herokuworld
+```
 
 ### push
 ```
