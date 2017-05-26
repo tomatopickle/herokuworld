@@ -7,9 +7,21 @@ https://devcenter.heroku.com/articles/heroku-cli
 ``` 
 heroku login 
 ``` 
+### create
+```
+heroku create your_unique_name
+```
 
 
+### push
+```
+git push heroku master
+```
 
+### restart 
+``` 
+heroku restart --app h11
+```
 
 ### destroy
 ``` 
