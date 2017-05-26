@@ -1,4 +1,4 @@
-# herokuworld
+# herokuworld Node.js hello world on Heroku
 
 ### heroku-cli install
 https://devcenter.heroku.com/articles/heroku-cli
