@@ -22,6 +22,6 @@ heroku logs --tail
 
 ### change app
 ``` 
-git remote set-url heroku https://git.heroku.com/polar-cove-4803.git      
+git remote set-url heroku https://git.heroku.com/YOUR_APP_NAME.git      
 ``` 
 
