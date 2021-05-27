@@ -1,7 +1,11 @@
-var http = require("http");
 const express = require('express');
-http.createServer(function(request, response) {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Heroku world!");
-  response.end();
-}).listen(process.env.PORT);
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello Express app!')
+});
+
+app.listen(3000, () => {
+  console.log('server started');
+});
